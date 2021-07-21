@@ -1,0 +1,24 @@
+{
+  "name": "uxmid-workshop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yufan-zhao/uxmid-workshop.git",
+  "author": "Yufan <yufan.zhao@hotmail.com>",
+  "license": "MIT",
+  "peerDependencies":
+  {
+    "uxmid-core": "^1.0.1",
+    "vue": "^2.6.14",
+    "vue-class-component": "^7.2.6",
+    "vue-property-decorator": "^9.1.2",
+    "vue-router": "^3.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.3.1",
+    "less": "^3.0.4",
+    "typescript": "^4.3.2",
+    "vite": "^2.4.2",
+    "vite-plugin-vue2": "^1.7.3",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
