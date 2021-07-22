@@ -27,6 +27,25 @@ export default defineConfig({
             }
         }
     },
+    build:
+    {
+        lib:
+        {
+            entry: path.resolve(__dirname, "lib/main.ts"),
+            name: "uxmid-workshop"
+        },
+        rollupOptions:
+        {
+            external: ["vue"],
+            output:
+            {
+                globals:
+                {
+                    vue: "Vue"
+                }
+            }
+        }
+    },
     plugins:
     [
         createVuePlugin()
